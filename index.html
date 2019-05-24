@@ -6,12 +6,19 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="style.css" type="text/css" rel="stylesheet"/>
         <title>Catpeople - Because we love them</title>
+        <script src="js/script.js"></script>
     </head>
 
 <body>
     <header>
+        <audio id="purr">
+            <source src="CatMeow.mp3" />
+        </audio>
+        <button onclick="sayMeow()">Pet me</button>
+
         <img id="hero" src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
     </header>
+   <script> document.write(howManyCats())</script>
 
     <nav>
         <ul>
@@ -25,7 +32,8 @@
         </ul>
     </nav>
 
-    <script src="js/script.js"></script>
+    <script> document.write(addName());</script>
+    
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/June_odd-eyed-cat.jpg/737px-June_odd-eyed-cat.jpg">
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>

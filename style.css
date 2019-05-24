@@ -15,9 +15,18 @@ nav li {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
 }
 
-nav{
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9px;
+
+}
+
+nav {
     text-align: center;
     background-color: #59A9FF;
     padding: 1px;
@@ -27,31 +36,31 @@ nav{
 
 }
 
-nav a{
+nav a {
     margin:20px;
 }
 
-img{
+img {
     width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-p{
+p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
 }
 
-footer{
+footer {
     background-color: black;
     width: 100%;
     color: white;
     text-align: center;
 }
 
-h3{
+h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 
